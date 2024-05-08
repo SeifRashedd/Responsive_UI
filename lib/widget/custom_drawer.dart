@@ -10,7 +10,7 @@ class CustomDrawer extends StatelessWidget {
       icon: Icons.favorite,
       title: 'D A H B O A R D',
     ),
-    DrawerItemModel(icon: Icons.settings, title: 'S E T T I N G S,'),
+    DrawerItemModel(icon: Icons.settings, title: 'S E T T I N G S'),
     DrawerItemModel(
       icon: Icons.info,
       title: 'A B O U T',

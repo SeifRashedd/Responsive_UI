@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive/widget/custom_lisf_view.dart';
+import 'package:responsive/widget/custom_list_view.dart';
 import 'package:responsive/widget/custom_list.dart';
 
 class TabletLayout extends StatelessWidget {

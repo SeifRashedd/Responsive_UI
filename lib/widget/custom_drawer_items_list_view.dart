@@ -17,7 +17,9 @@ class CustomDrawerItemsListView extends StatelessWidget {
         shrinkWrap: true,
         itemCount: items.length,
         itemBuilder: (context, index) {
-          return CustomDrawerItem(drawerItemModel: items[index]);
+          return CustomDrawerItem(
+            drawerItemModel: items[index],
+          );
         });
   }
 }

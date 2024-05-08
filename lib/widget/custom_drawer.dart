@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:responsive/models/drawer_item_model.dart';
 import 'package:responsive/widget/custom_drawer_items_list_view.dart';
 
@@ -22,15 +23,17 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      elevation: 0,
       backgroundColor: const Color(0xffDCDBDC),
       child: Column(
         children: [
           const DrawerHeader(
             child: Icon(
               Icons.favorite,
-              size: 48,
+              size: 65,
             ),
           ),
+          const Gap(15),
           CustomDrawerItemsListView(
             items: items,
           )

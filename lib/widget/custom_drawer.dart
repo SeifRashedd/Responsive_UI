@@ -31,7 +31,9 @@ class CustomDrawer extends StatelessWidget {
               size: 48,
             ),
           ),
-          CustomDrawerItemsListView(items: items)
+          CustomDrawerItemsListView(
+            items: items,
+          )
         ],
       ),
     );

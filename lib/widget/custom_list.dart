@@ -15,11 +15,23 @@ class CustomList extends StatelessWidget {
           itemBuilder: (context, index) {
             return const Padding(
               padding: EdgeInsets.only(right: 16),
-              child: AspectRatio(aspectRatio: 1, child: CustomItem()),
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: CustomItem(),
+              ),
             );
           },
         ),
       ),
     );
+  }
+}
+
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
